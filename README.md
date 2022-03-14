@@ -17,7 +17,7 @@ git clone https://github.com/snort3/libdaq.git
 cd snort3
 ./configure --prefix=/usr/local
 make -j<NUM of THREADS>
-make install
+sudo make install
 
 # Ensure there's /usr/local/lib entry is in /etc/ld.so.conf.
 
@@ -54,7 +54,7 @@ git clone https://github.com/snort3/snort3.git
 ./configure_cmake.sh --prefix=/location/of/snort3 --enable-jemalloc --enable-shell
 cd build
 make -j<NUM of THREADS>
-make install
+make install # May need to add sudo in front of make.
 ```
 
 Test to make sure snort is working.
