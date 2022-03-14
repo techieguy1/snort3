@@ -19,7 +19,7 @@ cd snort3
 make -j<NUM of THREADS>
 sudo make install
 
-# Ensure there's /usr/local/lib entry is in /etc/ld.so.conf.
+# Ensure /usr/local/lib entry is in /etc/ld.so.conf.
 
 # Add the library to LDCONFIG.
 export LD_LIBRARY_PATH=/usr/lib:/usr/local/lib:${LD_LIBRARY_PATH}
