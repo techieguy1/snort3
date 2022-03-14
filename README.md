@@ -21,7 +21,7 @@ sudo make install
 
 # Ensure /usr/local/lib entry is in /etc/ld.so.conf.
 
-# Add the library to LDCONFIG.
+# Add the library to LD_LIBRARY_PATH.
 export LD_LIBRARY_PATH=/usr/lib:/usr/local/lib:${LD_LIBRARY_PATH}
 
 # Run ldconfig
