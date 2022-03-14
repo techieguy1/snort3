@@ -1,5 +1,3 @@
-Snort3 reference guide for Fedora 35. Some information used and reformatted from other websites.
-
 # Rerences
 - [Basic Snort Rules Syntax and Usage](https://resources.infosecinstitute.com/topic/snort-rules-workshop-part-one/)
 - [Official Snort Site](https://www.snort.org/)
