@@ -83,7 +83,7 @@ snort -V
 Sniff packets and send to standard output as a dump file.
 
 |Mode|Description|
-|----|-----------|
+|:---|:----------|
 |-v|(verbose)|Display output on the screen|
 |-e|Display link layer headers|
 |-d|Display packet data payload|
