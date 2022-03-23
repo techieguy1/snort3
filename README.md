@@ -10,7 +10,7 @@
 Successfully compiled using the following version of gcc:
 `gcc version 11.2.1 20220127 (Red Hat 11.2.1-9) (GCC)`
 
-First, `daq` must be built from the snort's github repository. DO NOT get `daq` from the Fedora DNF repository! It doesn't have the `daq_dlt` files that snort is looking for. **NOTE**: There maybe some dependencies with daq. On my system, this compiled on the first try.
+First, `daq` must be built from the snort's github repository. DO NOT get `daq` from the Fedora DNF repository! It doesn't have the `daq_dlt` files that snort is looking for. **NOTE**: There maybe some dependencies with `daq`. On my system, this compiled on the first try.
 ```bash
 cd /location/where/daq/source/will/be
 git clone https://github.com/snort3/libdaq.git
