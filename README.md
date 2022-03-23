@@ -94,7 +94,7 @@ Sniff packets and send to standard output as a dump file.
 Input and output to a log file.
 
 |Mode|Description|
-|----|-----------|
+|:---|:----------|
 |-r|Use to read back the log file content using snort|
 |-l (directory name)|Log to a directory as a tcpdump file format|
 |-k (ASCII)|Display output as ASCII format|
@@ -104,7 +104,7 @@ Input and output to a log file.
 Use the specified file as config file and apply rules to process captured packets.
 
 |Mode|Description|
-|----|-----------|
+|:---|:----------|
 |-c|Define configuration file path|
 |-T |Use to test the configuration file including rules|
 
@@ -114,7 +114,7 @@ Rule Header + (Rule Options)
 Action - Protocol - Source/Destination IP's - Source/Destination Ports - Direction of the flow
 
 |Rule|Description|
-|----|-----------|
+|:---|:----------|
 |Alert Example|alert udp !10.1.1.0/24 any -> 10.2.0.0/24 any|
 |Actions|alert, log, pass, activate, dynamic, drop, reject, sdrop|
 |Protocols|TCP, UDP, ICMP, IP|
@@ -123,14 +123,14 @@ Action - Protocol - Source/Destination IP's - Source/Destination Ports - Directi
 # Logger Mode Command Line Options
 
 |Mode|Description|
-|----|-----------|
+|:---|:----------|
 |-l logdir|Log packets in tcp dump|
 |-K ASCII|Log in ASCII format|
 
 # NIDS Mode Options
 
 |Mode|Description|
-|----|-----------|
+|:---|:----------|
 |Define a configuration file|-c ( Configuration file name)|
 |Check the rule syntax and format for accuracy|-T -c (Configuration file name )|
 |Alternate alert modes|-A (Mode : Full, Fast, None ,Console)|
