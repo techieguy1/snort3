@@ -14,7 +14,7 @@ First, `daq` must be built from the snort's github repository. DO NOT get `daq` 
 ```bash
 cd /location/where/daq/source/will/be
 git clone https://github.com/snort3/libdaq.git
-cd snort3
+cd libdaq
 ./configure --prefix=/usr/local
 make -j<NUM of THREADS>
 sudo make install
@@ -51,6 +51,7 @@ Get the snort source.
 ```bash
 cd /location/where/snort/source/will/be
 git clone https://github.com/snort3/snort3.git
+cd snort3
 ./configure_cmake.sh --prefix=/location/of/snort3 --enable-jemalloc --enable-shell
 cd build
 make -j<NUM of THREADS>
