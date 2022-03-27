@@ -15,6 +15,7 @@ First, `daq` must be built from the snort's github repository. DO NOT get `daq` 
 cd /location/where/daq/source/will/be
 git clone https://github.com/snort3/libdaq.git
 cd libdaq
+./bootstrap
 ./configure --prefix=/usr/local
 make -j<NUM of THREADS>
 sudo make install
