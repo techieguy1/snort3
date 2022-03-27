@@ -45,7 +45,7 @@ Ensure the necessary applications and libraries are installed. DEPENDENCIES:
 # zlib from http://www.zlib.net for decompression
 
 # Example (after installing these, compilation worked):
-sudo dnf install luajit luajit-devel libdnet-devel libuuid-devel libuuid uuid-devel hyperscan-devel hyperscan flatbuffers flatbuffers-devel jemalloc-devel jemalloc
+sudo dnf install pcre pcre-devel luajit luajit-devel libdnet-devel libuuid-devel libuuid uuid-devel hyperscan-devel hyperscan flatbuffers flatbuffers-devel jemalloc-devel jemalloc
 ```
 
 Get the snort source.
