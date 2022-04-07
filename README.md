@@ -1,4 +1,4 @@
-# Rerences
+# References
 - [Basic Snort Rules Syntax and Usage](https://resources.infosecinstitute.com/topic/snort-rules-workshop-part-one/)
 - [Official Snort Site](https://www.snort.org/)
 - [Snort Cheat Sheet](https://www.comparitech.com/net-admin/snort-cheat-sheet/#tables)
