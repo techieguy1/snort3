@@ -151,6 +151,6 @@ Action - Protocol - Source/Destination IP's - Source/Destination Ports - Directi
 `log tcp !10.1.1.0/24 any -> 10.1.1.100 (msg: "ftp access";)`
 
 # Output Directory
-Default location: `/var/snort/log`
+Default location: `/var/log/snort`
 
 User's output directory --> Use -l switch: `/some/other/snort/log`
