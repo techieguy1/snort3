@@ -34,7 +34,7 @@ Get daq from snort3's source code repository and build it. **NOTE**: There maybe
 ```bash
 cd /location/where/daq/source/will/be
 git clone https://github.com/snort3/libdaq.git
-cdi libdaq 
+cd libdaq 
 ./bootstrap
 ./configure --prefix=/usr/local
 make -j<NUM of THREADS>
